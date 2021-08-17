@@ -4,6 +4,7 @@ import Follower from './components/Follower';
 
 function App() {
   const { loading, data } = useFetch();
+  console.log(data);
 
   return (
     <main>
@@ -14,7 +15,7 @@ function App() {
       <section className='followers'>
         <div className='container'>
           {data.map(follower => {
-            return <Follower key={follower.id} {...data} />;
+            return <Follower key={follower.id} {...follower} />;
           })}
         </div>
       </section>
