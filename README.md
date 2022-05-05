@@ -1,6 +1,6 @@
 # Pagination
 
-Check out the component [here](https://ioannis-sporidis.github.io/rc-pagination/)
+Check out the component [here](https://the-fetaverse.github.io/rc-pagination/)
 
 ## Dependencies
 
